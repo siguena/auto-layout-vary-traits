@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         mainLogo.layer.cornerRadius = 8
-        mainLogo.clipsToBounds = trues
+        mainLogo.clipsToBounds = true
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBOutlet weak var mainLogo: UIImageView!
