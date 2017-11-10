@@ -74,16 +74,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lze-So-2Re">
-                                <rect key="frame" x="8" y="570.66666666666663" width="398" height="191.33333333333337"/>
+                                <rect key="frame" x="8" y="570.66666666666663" width="398" height="191"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="ZBr-1q-P6Q">
-                                        <rect key="frame" x="0.0" y="0.0" width="191.66666666666666" height="191.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="191.66666666666666" height="191"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ZBr-1q-P6Q" secondAttribute="height" multiplier="1:1" id="2zt-gI-Bhf"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="kSM-r7-8cK">
-                                        <rect key="frame" x="206.66666666666663" y="0.0" width="191.33333333333337" height="191.33333333333334"/>
+                                        <rect key="frame" x="206.66666666666663" y="0.0" width="191.33333333333337" height="191"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
