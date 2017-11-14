@@ -9,14 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var mainLogo: UIImageView!
+    @IBOutlet weak var customizeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         mainLogo.layer.cornerRadius = 8
         mainLogo.clipsToBounds = true
+        customizeButton.layer.cornerRadius = 8
+        customizeButton.clipsToBounds = true
         // Do any additional setup after loading the view, typically from a nib.
+    
+    
     }
-    @IBOutlet weak var mainLogo: UIImageView!
+   
     
     
     
